@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ru" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="INSHOT — место, которое постоянно меняется." />
+  <title>INSHOT — клуб впечатлений</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <div class="site-header" aria-label="Главная навигация">
+      <a class="brand" href="#top" aria-label="INSHOT">
+        <img class="brand__logo" src="assets/logo.svg" alt="INSHOT" />
+      </a>
+      <div class="main-nav" aria-label="Разделы">
+        <a href="#spaces">Пространства</a>
+        <a href="#pass">Абонемент</a>
+        <a href="#footer">Контакты</a>
+        <a href="#about">О нас</a>
+      </div>
+      <button class="theme-switch" type="button" aria-label="Переключить светлую тему" aria-pressed="false">
+        <span class="theme-switch__track" aria-hidden="true"><span class="theme-switch__thumb"></span></span>
+      </button>
+    </div>
+
+    <div id="top">
+      <div class="hero section" id="hero" aria-labelledby="hero-title">
+        <img class="hero__neon hero__neon--left" src="assets/неонблок1-left.png" alt="" aria-hidden="true" />
+        <img class="hero__neon hero__neon--right" src="assets/неонблок1-right.png" alt="" aria-hidden="true" />
+        <div class="hero__rule" aria-hidden="true"></div>
+        <div class="hero__wordmark" aria-label="INSHOT">
+          <span class="hero__in">IN</span>
+          <img class="hero__element-block1" src="assets/элементблок1.png" alt="Фирменный красно-бирюзовый элемент INSHOT" />
+        </div>
+        <p class="hero__kicker">ЛЮДИ<br />СОБЫТИЯ<br />ВЫЙДИ ИЗ РЕАЛЬНОСТИ</p>
+      </div>
+
+      <div class="manifesto section" id="about" aria-labelledby="hero-title">
+        <div class="hero__intro">
+          <h1 id="hero-title">МЕСТО,<br />КОТОРОЕ<br />ПОСТОЯННО<br /><span>МЕНЯЕТСЯ.</span></h1>
+          <p>Мы создаём пространство, где каждый визит становится отдельной историей — с новым светом, маршрутом и настроением.</p>
+        </div>
+        <img class="hero__element" src="assets/элемент.png" alt="Графический знак INSHOT" />
+        <img class="manifesto__orb" src="assets/элемент2.png" alt="" aria-hidden="true" />
+      </div>
+
+      <div class="rooms section" id="spaces" aria-labelledby="rooms-title">
+        <div class="rooms__copy">
+          <h2 id="rooms-title"><span>10 КОМНАТ.</span><br /><em>БЕСКОНЕЧНЫЕ</em><br />ВПЕЧАТЛЕНИЯ.<br /><strong>ПОСТОЯННАЯ</strong><br />ДИНАМИКА.</h2>
+          <p class="muted">Каждая комната — это новый сценарий. Свет, цвет и звук меняются так, чтобы вы смогли увидеть привычное иначе.</p>
+        </div>
+        <div class="rooms__photo">
+          <img src="assets/photo.png" alt="Три иммерсивные комнаты: красная, зеркальная и бирюзовая" />
+          <div class="rooms__caption"><span>ROOM 01</span><span>ROOM 02</span><span>ROOM 03</span></div>
+        </div>
+      </div>
+
+      <div class="pass section" id="pass" aria-labelledby="pass-title">
+        <div class="pass__copy">
+          <h2 id="pass-title">INSHOT<br /><span>PASS</span></h2>
+          <p>Одна подписка - куча эмоций. Доступ к меняющемуся пространству и новым впечатлениям</p>
+          <a class="outline-button" href="#contact">ОТКРЫТЬ ДОСТУП <i aria-hidden="true"></i></a>
+        </div>
+        <div class="pass__art">
+          <div class="pass__glow pass__glow--red" aria-hidden="true"></div>
+          <div class="pass__glow pass__glow--teal" aria-hidden="true"></div>
+          <img src="assets/card.png" alt="Карта участника INSHOT PASS" />
+        </div>
+      </div>
+
+      <div class="contact section" id="contact" aria-labelledby="contact-title">
+        <div class="contact__form-wrap">
+          <h2 id="contact-title">УЙДИ ОТ <span>РЕАЛЬНОСТИ.</span></h2>
+          <form class="contact__form">
+            <label><span class="sr-only">Фамилия и имя</span><input type="text" name="name" placeholder="Введите фамилию и имя" /></label>
+            <label><span class="sr-only">Номер телефона</span><input type="tel" name="phone" placeholder="Введите номер телефона" /></label>
+            <label><span class="sr-only">Электронная почта</span><input type="email" name="email" placeholder="Введите адрес электронной почты" /></label>
+            <label><span class="sr-only">Город проживания</span><input type="text" name="city" placeholder="Выберите город проживания" /></label>
+            <label><span class="sr-only">Сообщение</span><input type="text" name="message" placeholder="Напишите свою пожелания" /></label>
+            <button class="outline-button outline-button--submit" type="submit">ПОГРУЗИТЬСЯ <i aria-hidden="true"></i></button>
+          </form>
+        </div>
+        <img class="contact__logo" src="assets/logo.svg" alt="INSHOT" />
+      </div>
+    </div>
+
+    <div class="site-footer" id="footer">
+      <div class="footer__heading"><span>ПРИХОДИ</span><br />И ОЩУТИ<br /><strong>САМ.</strong></div>
+      <div class="footer__details">
+        <div><p class="footer__label">АДРЕС</p><p>Москва, ул. Покровская<br />Метро «Чистяковская»</p></div>
+        <div><p class="footer__label">ВРЕМЯ РАБОТЫ</p><p>Ежедневно<br />12:00 — 23:00</p></div>
+        <div class="footer__social"><p class="footer__label">СЛЕДИ ЗА НОВОСТЯМИ</p><div><img src="assets/logotiktok.svg" alt="TikTok" /><img src="assets/logoibstagram.svg" alt="Instagram" /><img src="assets/logotelegram.svg" alt="Telegram" /></div></div>
+        <div><p class="footer__label">КОНТАКТЫ</p><p>+7 (999) 000-00-00<br />hello@inshot.ru</p></div>
+      </div>
+      <div class="footer__bottom"><span>2026 КЛУБ ВПЕЧАТЛЕНИЙ</span><span>ВСЕ ПРАВА ЗАЩИЩЕНЫ</span><span>ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</span><span>ПУБЛИЧНАЯ ОФЕРТА</span></div>
+    </div>
+  </div>
+  <script>
+    const root = document.documentElement;
+    const switcher = document.querySelector('.theme-switch');
+    switcher.addEventListener('click', () => {
+      const light = root.dataset.theme !== 'light';
+      root.dataset.theme = light ? 'light' : 'dark';
+      switcher.setAttribute('aria-pressed', String(light));
+      switcher.setAttribute('aria-label', light ? 'Переключить темную тему' : 'Переключить светлую тему');
+    });
+    document.querySelector('.contact__form').addEventListener('submit', (event) => event.preventDefault());
+  </script>
+</body>
+</html>
+
